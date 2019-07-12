@@ -10,7 +10,6 @@
     color: white;
     padding-left: 7px;
     line-height: normal;
-    pointer-events: none;
     max-width: 700px;
 }
 
@@ -24,4 +23,28 @@ h4 {
     font-weight: 400;
     margin: 10px;
     margin-bottom: 20px;
+}
+
+a {
+  color: #799428;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  text-decoration: underline;
 }
