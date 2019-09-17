@@ -96,7 +96,7 @@ var infoAeropuerto = function(d3) {
               }
               else {};
               tooltip.append("text")
-                  .html('</br><a href="' + d.Contrato + '">Enlace al contrato</a></br>');
+                  .html('</br><a href="' + d.Contrato + '" target="_blank">Enlace al contrato</a></br>');
               tooltip.append("text")
                   .text("*Segundo semestre de 2018");
                 })
